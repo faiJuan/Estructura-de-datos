@@ -1,16 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package conjuntistas;
 
 import lineales.dinamicas.Lista;
 
-/**
- *
- * @author juan.ramirez
- */
 public class ArbolBB {
 
     private NodoABB raiz;
@@ -118,8 +110,8 @@ public class ArbolBB {
         Comparable elem = null;
         if (this.raiz != null) {
             NodoABB aux = this.raiz;
-            while (aux.getIzquierdo() != null) {
-                aux = aux.getIzquierdo();
+            while (aux.getDerecho() != null) {
+                aux = aux.getDerecho();
             }
             elem = aux.getElem();
         }
