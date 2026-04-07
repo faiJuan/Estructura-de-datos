@@ -271,7 +271,7 @@ public class ArbolAVL {
         if (padre == null) {
             this.raiz = null;
         } else {
-            if (padre.getIzquierdo() != null) {
+            if (padre.getIzquierdo().getElem().equals(n.getElem())) {
                 padre.setIzquierdo(null);
             } else {
                 padre.setDerecho(null);

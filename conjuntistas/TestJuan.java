@@ -9,7 +9,6 @@ public class TestJuan {
         arbol.insertar(30);
         arbol.insertar(15);
         arbol.insertar(50);
-        arbol.insertar(15);
         arbol.insertar(60);
         arbol.insertar(5);
         arbol.insertar(25);
